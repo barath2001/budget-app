@@ -1,0 +1,23 @@
+.progress-bar {
+  height: 1.5rem;
+  width: 100%;
+  background-color: var(--background-color-secondary);
+  border-radius: 10rem;
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+}
+
+.fill.primary {
+  background-color: var(--color-accent);
+}
+
+.fill.warning {
+  background-color: #fcc419;
+}
+
+.fill.danger {
+  background-color: #ff6b6b;
+}

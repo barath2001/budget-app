@@ -1,0 +1,18 @@
+.modal-header {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.modal-expense-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.modal-expense-item {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 2rem;
+  align-items: center;
+}

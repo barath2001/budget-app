@@ -1,0 +1,26 @@
+.Button {
+  font-size: 1.6rem;
+  padding: 0.5em 1em;
+  border-radius: 0.3em;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+}
+
+.primary {
+  background-color: var(--color-accent);
+  color: var(--text-color-light);
+  border: none;
+}
+
+.secondary {
+  color: var(--text-color-accent);
+  border-color: var(--color-accent);
+}
+
+.danger {
+  background-color: var(--background-color-danger);
+  color: var(--text-color-light);
+  border: none;
+}
